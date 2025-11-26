@@ -2,82 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Babylon.js — Простая 2D сетка</title>
+    <title>Алгоритм</title>
     <script src="https://cdn.babylonjs.com/babylon.js"></script>
     <script src="https://cdn.babylonjs.com/gui/babylon.gui.js"></script>
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        font-family: Arial, sans-serif;
-      }
-      
-      .split-container {
-        display: flex;
-        width: 100vw;
-        height: 100vh;
-      }
-      
-      .left-panel {
-        flex: 0 0 25%;
-        background-color: #f5f5f5;
-        border-right: 2px solid #ccc;
-        padding: 20px;
-        overflow: auto;
-      }
-      
-      .right-panel {
-        flex: 1;
-        position: relative;
-      }
-      
-      #renderCanvas {
-        width: 100%;
-        height: 100%;
-        display: block;
-      }
-      
-      .panel-title {
-        font-size: 18px;
-        font-weight: bold;
-        margin-bottom: 15px;
-        color: #333;
-      }
-      
-      .split-handle {
-        width: 8px;
-        background-color: #ddd;
-        cursor: col-resize;
-        transition: background-color 0.2s;
-      }
-      
-      .split-handle:hover {
-        background-color: #bbb;
-      }
-      
-      .mode-panel {
-        padding: 10px;
-        margin: 10px 0;
-        border-radius: 5px;
-        background-color: #e9f7fe;
-        border-left: 4px solid #3498db;
-      }
-      
-      button {
-        padding: 8px 12px;
-        margin: 5px 0;
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-      }
-      
-      button:hover {
-        background-color: #0056b3;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <div class="split-container">
@@ -114,7 +42,6 @@
       </div>
     </div>
     <script src="splitter.js"></script>
-    <script src="algorithm.js">
-    </script>
+    <script src="algorithm.js"></script>
   </body>
 </html>
